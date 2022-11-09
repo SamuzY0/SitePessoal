@@ -1,0 +1,147 @@
+body {
+    padding-top: 8rem;
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul li a {
+    color: #666!important;
+    font-size: 1.2rem;
+    text-align: right;
+    text-transform: uppercase;
+	text-decoration: none;
+}
+nav ul li a:hover {
+    text-shadow: 1px 1px 5px #CCC;
+}
+.nav-link{
+    padding-left: 5rem!important;
+}
+#perfil {
+    background-color: #000000;
+    color: #FFF;
+    padding: 2rem 0 1rem;
+}
+h1 {
+    font-family: 'Kaushan Script';
+    padding-top: 3rem;
+    font-size: 4rem;
+    letter-spacing: 0.25rem;
+    font-weight: 700;
+}
+.float-right {
+    float: right!important;
+}
+.lead{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: 'Segoe UI';
+}
+.icons a{
+    display: inline-block;
+}
+#destaques {
+    background-color: #000000;
+}
+#principal {
+    background-color: #000000;
+    color: #FFF;
+    padding: 2rem 0 1rem;
+}
+h3{
+    font-size: 1.7rem;
+    color: #FFF;
+    font-style: italic;
+    padding: 3rem 0 0 0!important;
+    font-weight: bold;
+}
+.card-text{
+    text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.1rem;
+	color: #333;
+}
+article {
+    float: left;
+}
+article p {
+    color: #fff;
+    font-size: 1.2rem;
+    text-indent: 50px;
+    line-height: 1.8rem; 
+}
+aside {
+    float: left;
+    text-align: left;
+    margin-left: 15px;
+}
+details {
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin-bottom: 15px;
+}
+footer{
+    color: #fff;
+    background-color: #333;
+    font-size: 1rem;
+}
+
+#lista-recados{
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    height: 500px;
+    background-color: #FFF;
+    padding: 2rem 0 1rem;
+    margin-top: 30px;
+}
+
+.balao {
+    width: 320px;
+    float: left;
+    text-align: left;
+    background-image: url(imagens/balao.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    padding: 10px 5px;
+}
+.recado{
+    margin: 5px 20px;
+}
+.nome {
+    margin-left: 170px;
+    margin-top: 90px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media (max-width: 480px){    
+    .col-12 {
+        width: 110%;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 30px;
+    }
+    .card{
+        margin-left: -1rem;
+        margin-bottom: 2rem;
+    }
+    h1 {
+        padding-top: 0; 
+        font-size: 3rem;
+    }
+    #fotojunior{
+        display: none;
+    }
+}
+
+    .sexo1 {
+        color: white;
+    }
+    
+    .sexo1{
+        background-color: #000000;
+    }
+
+    #lista-recados{
+        background-color: #000000;
+        height: 600px;
+    }
